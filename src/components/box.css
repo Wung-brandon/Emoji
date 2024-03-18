@@ -1,0 +1,53 @@
+
+body{
+    background-color: #cefad0;
+    margin-bottom: 1000px;
+}
+.dictionary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    height: 200px;
+    
+    /* background-color: darkcyan; */
+
+    /* border: 2px solid red; */
+
+}
+.boxes{
+    display: grid;
+    margin: 3rem 4rem;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.24);
+    border-radius: 3px;
+    
+}
+img{
+    width: 20%;
+}
+.general{
+    color: #2ec2b0;
+    font-size: 200%;
+    margin-top: 0.6rem;
+}
+h1{
+    color: white;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 4rem;
+    line-height: 1.2;
+}
+.emojipedia{
+    padding: 0.5rem;
+    background-color: #2ec2b0;
+}
+dd{
+    padding-top: 1.1rem;
+    padding-bottom: 1.2rem;
+
+}
